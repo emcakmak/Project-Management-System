@@ -9,6 +9,22 @@ const projects = [
         status: 'In Progress',
     },
     {
+        id: '6',
+        clientId: '1',
+        name: 'A completly new project',
+        description:
+            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.',
+        status: 'Temporarily suspended',
+    },
+    {
+        id: '7',
+        clientId: '1',
+        name: 'Build a new arc reactor',
+        description:
+            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.',
+        status: 'Done',
+    },
+    {
         id: '2',
         clientId: '2',
         name: 'Dating App',
@@ -49,6 +65,7 @@ const clients = [
         name: 'Tony Stark',
         email: 'ironman@gmail.com',
         phone: '343-567-4333',
+
     },
     {
         id: '2',
